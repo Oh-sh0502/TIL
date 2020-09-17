@@ -4,6 +4,14 @@
 
 
 
+## ※ Git의 시작준비
+
+> 세가지를 다운로드한다.
+
+1. [git bash]( https://gitforwindows.org/ )
+2. [typora](https://typora.io/#windows)
+3. [Visual Studio Code](https://code.visualstudio.com/)
+
 ## 1. Git 사전 준비
 
 > git을 사용하기 전에 커밋을 남기는 사람에 대한 정보를 설정(최초)
@@ -29,7 +37,9 @@ $ git config --global user.email '{email}'
 
 ## 2. 기초 흐름
 
-> 작업 -> add -> commit
+> 작업 -> add -> commit->push
+
+![DVCS](md-images/DVCS.png)
 
 ### 2-1. 저장소 설정
 
