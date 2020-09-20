@@ -1,10 +1,22 @@
-#  첫 Git 수업
-
-[git](git.md): git에 대한 전반적인 개념(입문)
-
-[markdown](markdown.md): 문법이다.
+# TIL: Today I Learned
 
 
 
-[gitHub 프로필 꾸미기](https://zzsza.github.io/development/2020/07/10/make-github-profile-readme/)
+## Git
+
+[git 개념 다시 확인하기](Git)
+
+
+
+
+
+## Python Pandas
+
+
+
+
+
+
+
+## R
 

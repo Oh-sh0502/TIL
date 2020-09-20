@@ -59,17 +59,13 @@ $ git init
 
 다양한 프로그래밍 언어 문법의 syntax highlighting을 지원한다. 
 
-
-
 ## 링크
 
 [구글 링크](https://google.com)
 
-
-
 ## 이미지
 
-![1](md-images/1.png)
+![images](C:\Users\i\Desktop\images.png)
 
 * 이미지를 상대경로로 자동으로 저장하기 위해서 typora에 다음과 같은 설정을 한다.
   * 설정 > copy image to custom folder
@@ -78,19 +74,17 @@ $ git init
     * 가능하다면 상대적 위치
     * Auto escape
 
+![images](md-images/images-1600309456957.png)
 
+![Screen Shot 2020-09-17 at 오전 11.23](md-images/Screen%20Shot%202020-09-17%20at%20%EC%98%A4%EC%A0%84%2011.23.png)
 
 ## 표
-
-표는 코딩하기 어려우므로 상단의 '본문(p)'를 이용한다.
 
 | 순번 | 이름   | 비고 |
 | ---- | ------ | ---- |
 | 1    | 홍길동 |      |
 | 2    | 김철수 |      |
 | 3    |        |      |
-
-
 
 ## 기타
 
