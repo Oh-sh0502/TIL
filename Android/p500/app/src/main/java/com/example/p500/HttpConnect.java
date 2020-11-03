@@ -8,37 +8,37 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class HttpConnect {
-    public static String getString(String urlstr) {
+
+    public static String getString(String urlstr){
         String result = null;
-        URL url = null;
         HttpURLConnection hcon = null;
         InputStream is = null;
-        try {
-            url = new URL(urlstr);
-            hcon = (HttpURLConnection) url.openConnection();
+        try{
+            URL url = new URL(urlstr);
+            hcon = (HttpURLConnection)url.openConnection();
             hcon.setConnectTimeout(2000);
             hcon.setRequestMethod("GET");
             is = new BufferedInputStream(hcon.getInputStream());
             result = convertStr(is);
-        } catch (Exception e) {
+        }catch(Exception e){
             e.printStackTrace();
         }
         return result;
     }
 
-    public static String convertStr(InputStream is) {
+    public static String convertStr(InputStream is){
         String result = null;
         BufferedReader bi = null;
         StringBuilder sb = new StringBuilder();
-        try {
+        try{
             bi = new BufferedReader(
                     new InputStreamReader(is)
             );
             String temp = "";
-            while ((temp = bi.readLine()) != null) {
+            while((temp =bi.readLine()) != null){
                 sb.append(temp);
             }
-        } catch (Exception e) {
+        }catch(Exception e){
             e.printStackTrace();
         }
         return sb.toString();

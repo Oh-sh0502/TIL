@@ -8,36 +8,37 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
-
 
 public class Fragment1 extends Fragment {
 
     Button button;
+    TextView tx;
     MainActivity m;
+
     public Fragment1(MainActivity m) {
         this.m = m;
     }
-
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         ViewGroup viewGroup = null;
-        viewGroup =(ViewGroup)inflater.inflate(
+        viewGroup = (ViewGroup)inflater.inflate(
                 R.layout.fragment_1,container,false);
         button = viewGroup.findViewById(R.id.button);
+        tx = viewGroup.findViewById(R.id.tt);
 
-        button.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
-                Toast.makeText(m, "aaa",Toast.LENGTH_SHORT).show();
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(m, "aaa", Toast.LENGTH_SHORT).show();
             }
         });
-
         return viewGroup;
     }
     public void setTx(String str){
-
+        tx.setText(str);
     }
 }

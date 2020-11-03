@@ -13,7 +13,6 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     TextView textView;
     LinearLayout view;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,22 +35,32 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
-        /@Override
-                public void onBackPressed(){
-            //super.onBackPressed(0;
-            Toast.makeText(this,""+"BACK KEY PRESSED", Toast.LENGTH_SHORT.show());
-            finish();
-        }
-    }
-    // onCreate end
+    } // onCreate end
+
     public void print(String str){
         textView.setText(str);
     }
-//    @Override
-//    public boolean onKeyDown(int keyCode, KeyEvent event){
+
+    @Override
+    public void onBackPressed() {
+        //super.onBackPressed();
+        Toast.makeText(this, "" +
+                    "BACK KEY PRESSED", Toast.LENGTH_SHORT).show();
+        finish();
+    }
+    //    @Override
+//    public boolean onKeyDown(int keyCode, KeyEvent event) {
 //        if(keyCode == KeyEvent.KEYCODE_BACK){
-//            Toast.makeText(this, " "+"BACK KEY PRESSED", Toast.LENGTH_SHORT).show();
+//            Toast.makeText(this, "" +
+//                    "BACK KEY PRESSED", Toast.LENGTH_SHORT).show();
 //        }
+//
 //        return false;
 //    }
 }
+
+
+
+
+
+

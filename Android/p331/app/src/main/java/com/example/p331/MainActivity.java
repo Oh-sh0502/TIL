@@ -14,7 +14,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class MainActivity extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
     ActionBar actionBar;
-    MainActivity m;
+
     Fragment1 fragment1;
     Fragment2 fragment2;
     Fragment3 fragment3;
@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         fragment1 = new Fragment1(this);
-        fragment2 = new Fragment2(this);
-        fragment3 = new Fragment3(this);
+        fragment2 = new Fragment2();
+        fragment3 = new Fragment3();
 
         fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(
@@ -42,23 +42,29 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                if(item.getItemId() == R.id.fragment_1){
-                    fragment1.setTx("ddd");
+                if(item.getItemId() == R.id.tab1){
+                   fragment1.setTx("ddd");
                     fragmentManager.beginTransaction().replace(
                             R.id.framelayout, fragment1).commit();
-                    Toast.makeText(MainActivity.this, "tab1",Toast.LENGTH_SHORT).show();
-                }else if(item.getItemId() == R.id.fragment_2){
+
+                    Toast.makeText(MainActivity.this, "tab1", Toast.LENGTH_SHORT).show();
+                }else if(item.getItemId() == R.id.tab2){
                     fragmentManager.beginTransaction().replace(
                             R.id.framelayout, fragment2).commit();
-                    Toast.makeText(MainActivity.this, "tab1",Toast.LENGTH_SHORT).show();
-                }else if(item.getItemId() == R.id.fragment_3){
+
+                    Toast.makeText(MainActivity.this, "tab2", Toast.LENGTH_SHORT).show();
+                }else if(item.getItemId() == R.id.tab3){
                     fragmentManager.beginTransaction().replace(
                             R.id.framelayout, fragment3).commit();
-                    Toast.makeText(MainActivity.this, "tab1",Toast.LENGTH_SHORT).show();
+
+                    Toast.makeText(MainActivity.this, "tab3", Toast.LENGTH_SHORT).show();
                 }
                 return false;
             }
-        });
+        }); // end function
     }
-
 }
+
+
+
+

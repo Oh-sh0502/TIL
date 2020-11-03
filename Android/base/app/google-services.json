@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "795952094573",
+    "firebase_url": "https://pppp-fdc9e.firebaseio.com",
+    "project_id": "pppp-fdc9e",
+    "storage_bucket": "pppp-fdc9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795952094573:android:6e0de1ca553d576fef8e64",
+        "android_client_info": {
+          "package_name": "com.example.base"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795952094573-ft1e0jcchvothvggg6quhehho67h3vu5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrH5FpVRuljq6mMF1G8XppVXQ7uKqo9Qo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795952094573-ft1e0jcchvothvggg6quhehho67h3vu5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

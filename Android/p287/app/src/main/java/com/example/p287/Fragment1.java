@@ -1,6 +1,9 @@
 package com.example.p287;
 
+import android.content.Context;
+import android.content.DialogInterface;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,40 +14,80 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 
-public class Fragment1 extends Fragment {
+public class Fragment1  extends Fragment {
 
     TextView textView;
     EditText editText;
-    Button button4;
     ImageView imageView;
-
-    public Fragment1(){}
+    View1Manager manager;
+    String str;
+    Bundle savedInstanceState;
+    public Fragment1(){
+    }
 
     @Nullable
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable final ViewGroup container, @Nullable Bundle savedInstanceState) {
+
+        //Log.d("-------------",container.toString());
         ViewGroup viewGroup = null;
         viewGroup = (ViewGroup)inflater.inflate(
                 R.layout.fragment_1,container,false);
-        viewGroup.findViewById(R.id.textView);
-        viewGroup.findViewById(R.id.editText);
-        viewGroup.findViewById(R.id.button4);
-        imageView.setOnClickListener(new View.OnClickListener(){
+        textView = viewGroup.findViewById(R.id.textView);
+        editText = viewGroup.findViewById(R.id.editText);
+        imageView = viewGroup.findViewById(R.id.imageView);
+        //textView.setText(str);
+        imageView.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
+            public void onClick(View v) {
                 String str = editText.getText().toString();
                 textView.setText(str);
+                AlertDialog.Builder builder =
+                        new AlertDialog.Builder(getActivity());
+                builder.setTitle("Hi");
+                builder.setMessage("Are you deleted this Item:");
+                builder.setPositiveButton("YES", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                });
+                builder.setNegativeButton("NO", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                });
+
+                builder.show();
             }
         });
-
         return viewGroup;
-
     }
-
     public void setTx(String str){
+        this.str = str;
         textView.setText(str);
     }
 
+
+public static interface View1Manager{
+    public void changeTx(String str);
 }
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        if(context instanceof View1Manager){
+            manager = (View1Manager)context;
+        }
+    }
+
+}
+
+
+
+
+

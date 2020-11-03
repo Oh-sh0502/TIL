@@ -7,35 +7,18 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.Toast;
 
 
 public class Fragment2 extends Fragment {
-    Button button;
-    MainActivity m;
 
-    public Fragment2(MainActivity m) {
-        this.m =m;
+    public Fragment2() {
+        // Required empty public constructor
     }
-
-
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        ViewGroup viewGroup = null;
-        viewGroup =(ViewGroup)inflater.inflate(
-                R.layout.fragment_2,container,false);
-        button = viewGroup.findViewById(R.id.button);
-
-        button.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
-                Toast.makeText(m, "aaa",Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        return viewGroup;
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_2, container, false);
     }
 }

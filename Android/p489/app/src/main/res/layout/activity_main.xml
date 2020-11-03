@@ -12,14 +12,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="ckbt1"
-        android:text="Start" />
+        android:text="START" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="ckbt2"
-        android:text="Stop" />
+        android:text="STOP" />
 
     <SeekBar
         android:id="@+id/seekBar"
@@ -29,7 +29,7 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="204dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -37,5 +37,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textSize="30sp" />
 </LinearLayout>

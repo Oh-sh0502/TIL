@@ -23,15 +23,12 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-import org.w3c.dom.Text;
-
 public class MainActivity extends AppCompatActivity {
-    TextView textView;
-    LocationManager locationManager;
-
     SupportMapFragment supportMapFragment;
     GoogleMap gmap;
 
+    TextView textView;
+    LocationManager locationManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,32 +41,35 @@ public class MainActivity extends AppCompatActivity {
                 Manifest.permission.ACCESS_COARSE_LOCATION
         };
         ActivityCompat.requestPermissions(this,
-                permission,101);
+                permission, 101);
 
-        supportMapFragment = (SupportMapFragment)getSupportFragmentManager().findFragmentById(R.id.map);
+
+        supportMapFragment = (SupportMapFragment)
+                getSupportFragmentManager().findFragmentById(R.id.map);
         supportMapFragment.getMapAsync(new OnMapReadyCallback() {
             @Override
             public void onMapReady(GoogleMap googleMap) {
                 gmap = googleMap;
-                if(checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION)== PackageManager.PERMISSION_DENIED||
-                        checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION)== PackageManager.PERMISSION_DENIED){
-                    // 앱을 종료한다.
+                if(checkSelfPermission( Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_DENIED
+                        || checkSelfPermission( Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_DENIED){
                     return;
                 }
                 gmap.setMyLocationEnabled(true);
-                LatLng latLng = new LatLng(37.528352, 126.996073);
+                LatLng latlng = new LatLng(37.402456, 126.412768);
                 gmap.addMarker(
-                        new MarkerOptions().position(latLng).title("폴리텍").snippet("xxx"));
-                gmap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng,10));
+                        new MarkerOptions().position(latlng).
+                                title("공항").snippet("xxx")
+                );
+                gmap.animateCamera(CameraUpdateFactory.newLatLngZoom(latlng,10));
             }
         });
 
         // Location
         textView = findViewById(R.id.textView);
-        // 로케이션 매니저를 사용하기 위해서는 액세스 파인로케이션이 필요함
+
 
         MyLocation myLocation = new MyLocation();
-        locationManager =(LocationManager)getSystemService(Context.LOCATION_SERVICE);
+        locationManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
         locationManager.requestLocationUpdates(
                 LocationManager.GPS_PROVIDER,
                 1,
@@ -77,7 +77,8 @@ public class MainActivity extends AppCompatActivity {
                 myLocation
         );
 
-    }
+
+    }  // end onCreate
 
     class MyLocation implements LocationListener {
 
@@ -85,25 +86,26 @@ public class MainActivity extends AppCompatActivity {
         public void onLocationChanged(@NonNull Location location) {
             double lat = location.getLatitude();
             double lon = location.getLongitude();
-            textView.setText(lat+" "+lon);
-            LatLng latLng = new LatLng(lat,lon);
+            textView.setText(lat + " " +lon);
+            LatLng latlng = new LatLng(lat,lon);
 //            gmap.addMarker(
-//                    new MarkerOptions().position(latLng).
-//                            title("현재 위치").snippet("xxx"));
-//            gmap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng,10));
+//                    new MarkerOptions().position(latlng).
+//                            title("My Point").snippet("xxx")
+//            );
+            gmap.animateCamera(CameraUpdateFactory.newLatLngZoom(latlng,10));
         }
     }
 
-    // 앱을 다시 실행시키면 내용을 가져온다.
     @SuppressLint("MissingPermission")
     @Override
-    protected void onPostResume() {
-        super.onPostResume();
+    protected void onResume() {
+        super.onResume();
         if(gmap != null){
+
             gmap.setMyLocationEnabled(true);
         }
     }
-    // 앱을 잠깐 꺼놓으면 기능 정지
+
     @SuppressLint("MissingPermission")
     @Override
     protected void onPause() {
@@ -113,3 +115,8 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
+
+
+
+
+
