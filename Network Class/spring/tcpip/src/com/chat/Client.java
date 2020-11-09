@@ -59,13 +59,13 @@ public class Client {
 		while(true) {
 			System.out.println("Input msg");
 			String ms = sc.nextLine();
-			// 1?„ ë³´ë‚´ë©? ?„œë²„ì—?„œ?Š” ?‚¬?š©? ë¦¬ìŠ¤?Š¸ë¥? ë³´ë‚¸?‹¤.
+			// 1?ï¿½ï¿½ ë³´ë‚´ï¿½? ?ï¿½ï¿½ë²„ì—?ï¿½ï¿½?ï¿½ï¿½ ?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½ ë¦¬ìŠ¤?ï¿½ï¿½ï¿½? ë³´ë‚¸?ï¿½ï¿½.
 			Msg msg = null;
 			if(ms.equals("1")){
 				msg = new Msg(id,ms);	
 			}else {
 				ArrayList<String> ips = new ArrayList<>();
-				ips.add("/192.168.0.10");
+				ips.add("/192.168.25.57");
 				msg = new Msg(null,id,ms);
 			}
 			
@@ -167,7 +167,7 @@ public class Client {
 	}
 	
 	public static void main(String[] args) {
-		Client client = new Client("192.168.0.10",5555,
+		Client client = new Client("192.168.25.57",5555,
 				"[Jean]");
 		try {
 			client.connect();
