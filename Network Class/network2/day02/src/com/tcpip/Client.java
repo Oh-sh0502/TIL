@@ -1,15 +1,13 @@
 package com.tcpip;
 
-import java.io.BufferedWriter;
 import java.io.DataOutputStream;
 import java.io.IOException;
-import java.io.OutputStreamWriter;
 import java.net.Socket;
-import java.net.UnknownHostException;
 import java.util.Scanner;
 
 public class Client {
-
+	
+	// ¸â¹öº¯¼ö
 	int port;
 	String ip;
 	DataOutputStream ow = null;

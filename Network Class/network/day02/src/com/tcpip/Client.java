@@ -6,7 +6,6 @@ public class Client {
 
 	int port;
 	String ip;
-	
 	Socket socket;
 	
 	public Client(String ip,int port) {

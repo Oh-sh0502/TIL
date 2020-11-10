@@ -17,7 +17,7 @@ public class MainController {
 	Client client;
 	
 	public MainController() {
-		client = new Client("192.168.0.10",5555,
+		client = new Client("192.168.25.57",5555,
 				"[WEB]");
 		try {
 			client.connect();
@@ -35,7 +35,7 @@ public class MainController {
 	@RequestMapping("/iot.mc")
 	public void iot(HttpServletResponse res) throws IOException {
 		System.out.println("IoT Send Start ....");
-		client.sendTarget("/192.168.0.10", "100");
+		client.sendTarget("/192.168.25.57", "100");
 		PrintWriter out = res.getWriter();
 		out.print("ok");
 		out.close();
