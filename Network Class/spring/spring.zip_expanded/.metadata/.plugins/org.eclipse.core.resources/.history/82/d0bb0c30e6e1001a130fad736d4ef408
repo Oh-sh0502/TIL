@@ -1,0 +1,32 @@
+package com.component;
+
+import com.frame.Dao;
+
+public class DrinkDao implements Dao {
+
+	@Override
+	public void insert() {
+		System.out.println("Drink Inserted...");
+	}
+
+	@Override
+	public void delete() {
+		System.out.println("Drink Deleted...");
+	}
+
+	@Override
+	public void update() {
+		System.out.println("Drink Updated...");
+	}
+
+	@Override
+	public void select() {
+		System.out.println("Drink Selected...");
+	}
+
+	@Override
+	public void selectall() {
+		System.out.println("Drink Selected totally...");
+	}
+
+}

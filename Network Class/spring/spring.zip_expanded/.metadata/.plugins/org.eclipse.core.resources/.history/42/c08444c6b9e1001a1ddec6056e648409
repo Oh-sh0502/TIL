@@ -1,0 +1,25 @@
+package d01;
+
+public class LTV implements TV {
+
+	@Override
+	public void powerOn() {
+		System.out.println("LTV powerOfff");
+	}
+
+	@Override
+	public void powerOff() {
+		System.out.println("LTV powerOff");
+	}
+
+	@Override
+	public void powerUp() {
+		System.out.println("LTV powerOff");
+	}
+
+	@Override
+	public void powerDown() {
+		System.out.println("LTV powerOff");
+	}
+
+}

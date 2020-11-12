@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value=""/>
+		<item key="wrap" value="true"/>
+		<item key="incremental" value="false"/>
+		<list key="findhistory">
+			<item value="맛있는"/>
+			<item value="starRev"/>
+			<item value="singleshop"/>
+			<item value=".starRate"/>
+			<item value="date"/>
+			<item value="listing"/>
+			<item value="font-family: &apos;RIDIBatang&apos;;"/>
+			<item value="font-family: &apos;SDMiSaeng&apos;;"/>
+		</list>
+		<list key="replacehistory">
+			<item value="font-family: &apos;Dovemayo-Medium&apos;;"/>
+			<item value="font-family: &apos;SDMiSaeng&apos;;"/>
+			<item value="font-family: &apos;GmarketSansMedium&apos;;"/>
+			<item value="font-family: &apos;RIDIBatang&apos;;"/>
+			<item value="script src=&quot;Resources/js"/>
+			<item value="img src=&quot;Resources/img"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1434"/>
+		<item key="DIALOG_Y_ORIGIN" value="162"/>
+		<item key="DIALOG_WIDTH" value="319"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+</section>

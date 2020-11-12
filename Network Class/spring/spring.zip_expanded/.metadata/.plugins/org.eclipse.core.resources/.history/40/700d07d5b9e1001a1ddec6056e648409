@@ -1,0 +1,8 @@
+package d01;
+// 테레비전이 가져야할 기능을 정의한다. 추상 함수를 사용하며 인터페이스에서는 abstract가 자동 생략이 되고 있다.
+public interface TV {
+	public void powerOn();
+	public void powerOff();
+	public void powerUp();
+	public void powerDown();
+}

@@ -1,0 +1,32 @@
+package com.component;
+
+import com.frame.Dao;
+
+public class HamburgDao implements Dao {
+
+	@Override
+	public void insert() {
+		System.out.println("Hamburg Inserted...");
+	}
+
+	@Override
+	public void delete() {
+		System.out.println("Hamburg Deleted...");
+	}
+
+	@Override
+	public void update() {
+		System.out.println("Hamburg Updated...");
+	}
+
+	@Override
+	public void select() {
+		System.out.println("Hamburg Selected...");
+	}
+
+	@Override
+	public void selectall() {
+		System.out.println("Hamburg Selected totally...");
+	}
+
+}

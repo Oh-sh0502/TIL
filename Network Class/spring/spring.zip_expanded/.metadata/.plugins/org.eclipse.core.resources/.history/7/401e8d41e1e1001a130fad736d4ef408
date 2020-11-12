@@ -1,0 +1,37 @@
+package com.component;
+
+import com.frame.Admin;
+
+public class AdminBiz implements Admin {
+
+	@Override
+	public void register() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void remove() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void modify() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void see() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void seeall() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

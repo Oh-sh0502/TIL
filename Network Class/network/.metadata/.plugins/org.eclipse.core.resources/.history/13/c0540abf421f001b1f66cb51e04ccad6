@@ -1,0 +1,40 @@
+package com.can;
+
+import java.io.BufferedInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+
+import gnu.io.CommPort;
+import gnu.io.CommPortIdentifier;
+import gnu.io.SerialPort;
+import gnu.io.SerialPortEvent;
+import gnu.io.SerialPortEventListener;
+
+public class Test implements SerialPortEventListener {
+	private BufferedInputStream bin;
+	private InputStream in;
+	private OutputStream out;
+	private SerialPort serialPort;
+	private CommPortIdentifier portIdentifier;
+	private CommPort commPort;
+	private String result;
+	private String rawCanID, rawTotal;
+	// private boolean start = false;
+
+
+
+
+	public static void main(String args[]) throws IOException {
+
+		Test ss = new Test("COM5", true);
+		ss.sendSerial("W2810003B010000000000005011", "10003B01");
+
+	}
+
+}
+
+
+
+
+

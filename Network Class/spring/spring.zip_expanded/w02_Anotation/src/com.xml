@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+	
+	<context:component-scan base-package="com"></context:component-scan>
+	
+	
+<!-- 일반 의존성 주입과 차이점
+	1. 의존성은 xmlns:p, 즉 property가 존재하고 어노테이션은  xmlns:context 가 존재
+	
+	2. 의존성은 하나하나 Dao에 id를 정해 리스트업해야한다. 어노테이션은 그냥 패키지 잡아서 그냥 개 첨ㅎㅁ벨허ㅑ
+
+
+
+  -->
+</beans>
+
+
+

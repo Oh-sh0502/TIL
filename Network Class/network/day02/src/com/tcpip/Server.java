@@ -8,11 +8,12 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class Server {
-	int port = 9999;
-	ServerSocket serverSocket;
-	Socket socket;
+	// 멤버 변수	
+	int port = 9999;				// 포트
+	ServerSocket serverSocket;		// 서버 소켓
+	Socket socket;					// 소켓
 	
-	DataInputStream ir;
+	DataInputStream ir;				// 인풋스트림
 	BufferedReader br;
 	
 	public Server() {
