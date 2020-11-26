@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="584ec42e-bb8d-46c1-aa9b-cbaac610cd6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/chart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4차산업 선도인력/2020.11.26.md" beforeDir="false" afterPath="$PROJECT_DIR$/4차산업 선도인력/2020.11.26.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ManagerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ManagerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/RegionSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/RegionSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ReviewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ReviewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/SearcherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/SearcherController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ShopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ShopController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/WeatherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/WeatherController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/mybatis/reviewmapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/mybatis/reviewmapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/mybatis/shopmapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/mybatis/shopmapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/vo/ReviewVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/vo/ReviewVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/src/com/biz/BookingBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/src/com/biz/BookingBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/src/com/controller/ManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/src/com/controller/ManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/src/com/controller/SearcherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/src/com/controller/SearcherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/src/com/mybatis/bookingmapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/src/com/mybatis/bookingmapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/src/com/mybatis/shopmapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/src/com/mybatis/shopmapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/target/classes/com/biz/BookingBiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/target/classes/com/biz/BookingBiz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/target/classes/com/controller/SearcherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/target/classes/com/controller/SearcherController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/target/m2e-wtp/web-resources/META-INF/maven/eody/eody/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/target/m2e-wtp/web-resources/META-INF/maven/eody/eody/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/alogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/alogin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/amain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/amain.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/amyroom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/amyroom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/aregister.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/aregister.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/center1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/center1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/loginfail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/loginfail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/shopadd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/shopadd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/shopdetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/shopdetail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/shopupdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/shopupdate.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/star.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/star.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/region_n_shop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/region_n_shop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/shoplist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/shoplist.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kpgt0ZXQplF8OzWpBZtC2o6cht" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="584ec42e-bb8d-46c1-aa9b-cbaac610cd6e" name="Default Changelist" comment="" />
+      <created>1606403161850</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606403161850</updated>
+    </task>
+    <servers />
+  </component>
+</project>
