@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="584ec42e-bb8d-46c1-aa9b-cbaac610cd6e" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/chart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4차산업 선도인력/2020.11.26.md" beforeDir="false" afterPath="$PROJECT_DIR$/4차산업 선도인력/2020.11.26.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TIL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TIL.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ManagerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ManagerController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/RegionSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/RegionSearch.class" afterDir="false" />
@@ -44,8 +45,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/sister/code_wordcloud.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1kpgt0ZXQplF8OzWpBZtC2o6cht" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -55,6 +66,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/pycharm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -66,5 +78,15 @@
       <updated>1606403161850</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="186" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606893372001">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="186" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1606893372001" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606893490581">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606893490581" />
   </component>
 </project>
