@@ -3,7 +3,7 @@
 구글코리아와 생활코딩이 함께 진행한 온라인 무료 머신러닝 교육 프로젝트 입니다.
 
 - 머신러닝1
-  - [머신러닝1_모델 Model]()
+  - [머신러닝1_모델 Model](./머신러닝1_모델 Model )
 - 텐서플로우 Python
 - Tensorflow 이미지 분류 - CNN(python)
 
@@ -27,6 +27,4 @@
 
 ### 수료증
 
-[ml-cert.html](ml-cert.html)
-
-![image-20210115001441631](C:\Users\oh12s\Desktop\TIL\Machine Learning\image\image-20210115001441631.png)
+![image-20210115021611834](C:\Users\oh12s\Desktop\TIL\Machine Learning\image\수료증.png)
