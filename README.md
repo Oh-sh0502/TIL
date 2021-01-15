@@ -1,8 +1,8 @@
 # TIL: Today I Learned
 
-## 최근 공부내용
+## 최근 공부내용📚
 
-
+[PythonPandas: part3. 데이터 살펴보기](/PythonPandas\part3_데이터 살펴보기)
 
 
 
