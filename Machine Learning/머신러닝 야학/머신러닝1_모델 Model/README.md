@@ -26,9 +26,9 @@
 
 - [https://teachablemachine.withgoogle.com/](https://teachablemachine.withgoogle.com/)에서 데이터를 학습시켜보고 모델을 만들어볼 수 있다.
 
-<img src="C:\Users\oh12s\Desktop\TIL\Machine Learning\image\Teachable Machine1.png" alt="image-20210115014309641" style="zoom: 33%;" />
+<img src="../../image/Teachable Machine1.png" alt="image-20210115014309641" style="zoom: 33%;" />
 
 - [https://ml-app.yah.ac/](https://ml-app.yah.ac/)에서 모델을 기반으로 만든 어플리케이션을 체험해볼 수 있다.
 
-<img src="C:\Users\oh12s\Desktop\TIL\Machine Learning\image\Teachable Machine2.png" alt="image-20210115015916562" style="zoom:33%;" />
+<img src="../../image/Teachable Machine2.png" alt="image-20210115015916562" style="zoom:33%;" />
 

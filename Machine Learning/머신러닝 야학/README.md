@@ -27,4 +27,4 @@
 
 ### 수료증
 
-![image-20210115021611834](C:\Users\oh12s\Desktop\TIL\Machine Learning\image\수료증.png)
+![image-20210115021611834](../image/수료증.png)
