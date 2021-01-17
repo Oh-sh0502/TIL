@@ -1,6 +1,10 @@
-# 데이터 입출력
+# Part2. 데이터 입출력
 
-1. 외부 파일 읽어오기
+### 1. 외부 파일 읽어오기
+
+- 판다스는 다양한 형태의 외부 파일을 읽어와서 데이터프레임으로 변환하는 함수를 가지고 있다.
+
+- **read_csv(), read_excel(), read_json()**
 
    ```python
    # CSV파일 -> 데이터프레임
@@ -8,9 +12,9 @@
    
    pandas.read_csv("파일경로(이름)", header=0)			# 기본값: 0행을 열 지정
    pandas.read_csv("파일경로(이름)", header=n)			# n행을 열 지정
-   pandas.read_csv("파일경로(이름)", header=None)		# 행을 열 지정하지 않음
+   pandas.read_csv("파일경로(이름)", header=None)			# 행을 열 지정하지 않음
    
-   pandas.read_csv("파일경로(이름)", index_col=False)	# 인덱스 지정하지 않음
+   pandas.read_csv("파일경로(이름)", index_col=False)		# 인덱스 지정하지 않음
    pandas.read_csv("파일경로(이름)", index_col='c0')		#'c0' 열을 인덱스 지정
    
    # Excel파일 -> 데이터프레임(read_csv와 동일한 옵션 사용가능)
@@ -20,14 +24,22 @@
    pandas.read_json("파일경로(이름)")
    ```
 
-2. 웹(web)에서 가져오기
+### 2. 웹(web)에서 가져오기
+
+​	**2-1. HTML 웹 페이지에서 표 속성 가져오기**
+
+​	read_html() 함수는 HTML 웹 페이지에서 <table> 태그에서 표 형식의 데이터를 모두 찾아서 데이터 프레임으로 변환한다.
 
    ```python
    # HTML 표 속성 읽기
    pandas.read_html("웹 주소(URL)" 또는 "HTML 파일경로(이름)")
    ```
 
-3. 데이터 저장하기
+​	**2-2. 웹 스크래핑(scraping)**
+
+​	웹 서버에 저장된 데이터를 가져오는 행위를 말하며, BeautifulSoup 등의 도구로 수집한 데이터를 데이터프레임으로 정리한다. [2.5_us_etf_list](../Study Code & File/2.5_us_etf_list)를 참고한다.
+
+### 3. 데이터 저장하기
 
    ```python
    # CSV 파일로 저장

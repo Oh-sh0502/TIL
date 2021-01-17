@@ -25,7 +25,9 @@
 
 ## Python Pandas
 
-
+1. [part1](../part1)
+2. [part2_데이터 입출력](../part2_데이터 입출력)
+3. [part3_데이터 살펴보기](../part3 데이터 살펴보기)
 
 
 

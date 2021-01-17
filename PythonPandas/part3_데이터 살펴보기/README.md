@@ -1,14 +1,18 @@
 # Part3. 데이터 살펴보기
 
+사전 정의
+
 ```python
 import pandas as pd
 
 df = pd.read_csv('./csv파일.csv', header=None)
 ```
 
-1. 데이터프레임의 구조
+### 1. 데이터프레임의 구조
 
-   1-1 데이터 내용 미리보기
+ 데이터프레임 클래스에는 데이터프레임의 크기, 구성항목, 자료형, 통계 수치 등 여러 정보를 확인하는 속성과 메소드를 포함하고 있다.
+
+   **1-1 데이터 내용 미리보기**
 
    ```python
    # 앞부분 미리보기
@@ -18,9 +22,10 @@ df = pd.read_csv('./csv파일.csv', header=None)
    # 뒷부분 미리보기
    df.tail()		# 5개
    df.tail(n)	# n개
+   ```
 ```
 	
-	1-2 데이터 요약 정보 확인하기
+	**1-2 데이터 요약 정보 확인하기**
 	
 	```python
 	# 데이터프레임의 크기 확인: (행의 개수, 열의 개수)를 투플로 반환
@@ -34,9 +39,9 @@ df = pd.read_csv('./csv파일.csv', header=None)
 	df.describe()					
 	# 범주데이터: 산술데이터 + unique(고윳값 개수), top(최빈값), freq(빈도수) 
 	df.describe(include='all')	
-	```
-	
-	1-3 데이터 개수 확인
+```
+
+	**1-3 데이터 개수 확인**
 	
 	```python
 	# 열 데이터 개수 확인
@@ -46,10 +51,12 @@ df = pd.read_csv('./csv파일.csv', header=None)
 	df["열이름"].value_counts()
 	df["열이름"].value_counts(dropna=True)
 	```
-	
-	
-	
-2.  통계 함수 적용
+
+
+​	
+### 2.  통계 함수 적용
+
+​	**mean(), median(), max(), min(), std(), corr()**
 
    ```python
    # 모든 열의 평균값
@@ -87,7 +94,11 @@ df = pd.read_csv('./csv파일.csv', header=None)
 
    
 
-3.  판다스 내장 그래프 도구 활용
+### 3.  판다스 내장 그래프 도구 활용
+
+​	책에는 판다스가 Matplotlib 라이브러리의 일부를 내장하고 있어, 별도의 import 없이 그래프를 손쉽게 그린다고는 하나.. 나는 되지 않았다. 원인은 파이썬 버전의 문제인 것 같고, 책과 차이나는 부분들은 [에러노트](./에러노트)에 기록하려고 한다.
+
+​	인터넷을 참고하여 내가 그래프를 그린 방법은 다음과 같다.
 
    ```python
    import matplotlib.pyplot as plt
@@ -102,9 +113,9 @@ df = pd.read_csv('./csv파일.csv', header=None)
 
 ---
 
-### + α
+## + α
 
-1. 특정 열에 통계함수 적용
+### 1. 특정 열에 통계함수 적용
 
    ```python
    # 세가지가 있다.
@@ -115,7 +126,7 @@ df = pd.read_csv('./csv파일.csv', header=None)
 
    세 번째는 원래 여러 열을 선택할 때 쓰는 열 리스트를 이용한 것인데, 이게 열이름과 값을 둘다 보여주어 파악하기엔 더 좋다.
 
-2. 상관계수(r)란?
+### 2. 상관계수(r)란?
 
    두 변수 x, y 사이의 상관관계의 정도를 나타내는 수치
 
