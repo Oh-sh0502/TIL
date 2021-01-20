@@ -44,3 +44,8 @@ df = pd.read_excel('./시도별 전출입 인구수.xlsx', header = 0).fillna(0)
 print(df)
 ```
 
+---
+
+### Reference
+
+https://stackoverflow.com/questions/64641467/whats-the-problem-read-excel-got-an-unexpected-keyword-argument-fillna
