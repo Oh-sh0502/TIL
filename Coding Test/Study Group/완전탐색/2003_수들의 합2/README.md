@@ -1,4 +1,4 @@
-# #2003: 수들의 합
+# #2003: 수들의 합2
 
 ### 문제
 
@@ -18,7 +18,7 @@ n, m = map(int,input().split())
 a = list(map(int, input().split()))
 
 cnt = 0							# 부분합이 M인 경우 카운트
-sum = 0								# 부분합
+sum = 0							# 부분합
 for i in range(n):
     sum += a[i]					# 시작점(i)을 먼저 sum에 더해준다.
     if sum == m:				# 단일 원소 자체가 부분합일 수 있다.
