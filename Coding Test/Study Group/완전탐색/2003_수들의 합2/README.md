@@ -59,7 +59,49 @@ for start in range(n):
 print(cnt)
 ```
 
+- **추가**: [2143_두 배열의 합](../2143_두 배열의 합)에서 딕셔너리를 사용한 풀이를 적용해보았다.
 
+```python
+# 입력
+n, m = map(int,input().split())
+a = list(map(int, input().split()))
+
+# 딕셔너리 준비
+acm ={}
+for i in range(n):
+    t=0							# 부분합
+    for j in range(i,n):		# i부터 n까지
+        t += a[j]				# t에 a의 원소를 누적한다
+        if acm.get(t):			# 딕셔너리에 t가 있으면
+            acm[t] += 1			# key가 t인 원소의 value에 +1
+        else:					# 없으면
+            acm[t] = 1			# key와 value를 신규 생성
+if acm.get(m):
+    print(acm.get(m))
+else:
+    print(0)
+```
+
+- **추가**: 위의 딕셔너리 풀이와 같은 코드 흐름으로 딕셔너리를 쓰지 않고 갯수 카운트를 생각해보면 어떨까해서 코드를 재구성했더니 풀이 1의 최적화 코드가 나왔다. if문을 두 번 쓰지 않아도 된다는것!
+
+```python
+n, m = map(int,input().split())
+a = list(map(int, input().split()))
+
+cnt =0
+for i in range(n):
+    t = 0
+    for j in range(i,n):
+        t += a[j]
+        print(t)
+        if t==m:
+            cnt+=1
+print(cnt)
+```
+
+
+
+  
 
 ---
 
