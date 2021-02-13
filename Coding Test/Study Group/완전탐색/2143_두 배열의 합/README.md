@@ -20,6 +20,49 @@ T(=5) = A[1] + B[1] + B[2]
 
 ### 문제풀이
 
+-  **딕셔너리를 이용하여 완전탐색을 구성할 수 있다는 것이 포인트.** 부분합으로 나올 수 있는 결과들을 key로 하고 이를 카운트하여 value값에 넣는다. 즉, {부분합: 개수, 부분합: 개수, ...} 형식의 딕셔너리를 만드는 것이다.
+   **딕셔너리를 이용한 완전탐색은 코드구성만 잘 한다면 연속적인 부분합과 부분수열과 같은 불연속적 부분합에서도 사용이 가능하다.** 딕셔너리로 "부분합: 개수" 폼을 구성할 수 있다는 것!
+
+```python
+import sys
+
+t = int(sys.stdin.readline().rstrip())
+
+n = int(sys.stdin.readline().rstrip())
+alist = list(map(int, sys.stdin.readline().split()))
+
+m = int(sys.stdin.readline().rstrip())
+blist = list(map(int, sys.stdin.readline().split()))
+
+acm, bcm = {}, {}
+for i in range(n):				# 시작점
+    asum = 0
+    for j in range(i,n):		# 끝점
+        asum += alist[j]
+        if acm.get(asum):
+            acm[asum] += 1
+        else:
+            acm[asum] = 1
+
+for i in range(m):
+    bsum = 0
+    for j in range(i,m):
+        bsum += blist[j]
+        if bcm.get(bsum):
+            bcm[bsum] += 1
+        else:
+            bcm[bsum] = 1
+
+cnt = 0
+for key in acm:
+    if bcm.get(t-key):
+      cnt += acm[key]*bcm[t-key]
+
+print(cnt)
+```
+
+
+
 ---
 
 ### 결과
