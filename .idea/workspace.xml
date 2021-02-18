@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="584ec42e-bb8d-46c1-aa9b-cbaac610cd6e" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/chart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/머신러닝 야학/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/머신러닝 야학/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/머신러닝 야학/머신러닝1_모델 Model/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/머신러닝 야학/머신러닝1_모델 Model/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ManagerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ManagerController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/RegionSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/RegionSearch.class" afterDir="false" />
