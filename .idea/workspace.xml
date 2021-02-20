@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="584ec42e-bb8d-46c1-aa9b-cbaac610cd6e" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/chart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ManagerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ManagerController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/RegionSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/RegionSearch.class" afterDir="false" />
@@ -37,6 +38,7 @@
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/main.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/region_n_shop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/region_n_shop.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/shoplist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/shoplist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/면접스터디/기술스택/기술스택_Oracle_1주차.md" beforeDir="false" afterPath="$PROJECT_DIR$/면접스터디/기술스택/기술스택_Oracle_1주차.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +63,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/pycharm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
