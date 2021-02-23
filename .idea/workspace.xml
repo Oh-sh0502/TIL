@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584ec42e-bb8d-46c1-aa9b-cbaac610cd6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Coding Test/Individual/서로소 집합/경로 압축.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coding Test/Individual/서로소 집합/사이클 판별.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coding Test/Individual/서로소 집합/크루스칼 알고리즘.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coding Test/Individual/위상정렬/위상 정렬.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/chart.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody" afterDir="false" />
@@ -38,7 +42,6 @@
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/main.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/region_n_shop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/region_n_shop.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/shoplist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/shoplist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/면접스터디/기술스택/기술스택_Oracle_1주차.md" beforeDir="false" afterPath="$PROJECT_DIR$/면접스터디/기술스택/기술스택_Oracle_1주차.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +58,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Coding Test/Individual/서로소 집합/기본적인 구현 방법.py" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1kpgt0ZXQplF8OzWpBZtC2o6cht" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -66,6 +72,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/pycharm" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\oh12s\Desktop\TIL\Coding Test\Individual\위상정렬" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,6 +87,17 @@
       <updated>1606403161850</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="186" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606893372001">
