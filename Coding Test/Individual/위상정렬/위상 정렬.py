@@ -3,7 +3,7 @@
 
 from collections import deque
 
-# 노드의 개수와 간선으 개수를 입력받기
+# 노드의 개수와 간선의 개수를 입력받기
 v, e = map(int, input().split())
 # 모든 노드에 대한 진입차수는 0으로 초기화
 indegree = [0] * (v+1)
@@ -16,7 +16,7 @@ for _ in range(e):
     graph[a].append(b)                  # 정점 A에서 B로 이동 가능
     # 진입 차수를 1 증가
     indegree[b] += 1
-
+print(indegree)
 # 위상 정렬 함수
 def topology_sort():
     result = []                         # 알고리즘 수행결과를 담을 리스트
