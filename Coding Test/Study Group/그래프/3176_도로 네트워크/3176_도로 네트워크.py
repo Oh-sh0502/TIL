@@ -23,20 +23,21 @@ def union_parent(a, b, k):
         dist[broot] = (dist[a] + k) - dist[b]               # b의 부모에서의 차이값은
 
 while True:
-    n, m = map(int, input().split())
-    if n == 0 and m == 0:
-        break
+    n = int(input())
     parent = [i for i in range(n + 1)]
     dist = [0 for i in range(n + 1)]                        # dist는 노드와 부모 노드사이의 거리
-    for i in range(m):
+    for i in range(n):
         a = list(map(str, input().split()))
-        find_parent(int(a[1]))                              # 시작점의 루트노드를 찾는다.
-        find_parent(int(a[2]))                              # 끝점의 루트노드를 찾는다.
-        if a[0] == "!":                                     # 첫 원소가 ! 라면
-            union_parent(int(a[1]), int(a[2]), int(a[3]))   # 유니온 함수 실행: 두 점간의 부모관계를 정립하고 dist 수정
+        find_parent(int(a[0]))
+        find_parent(int(a[1]))
+        union_parent(int(a[0]), int(a[1]), int(a[2]))
+    k = int(input())
+    for i in range(k):
+        b = list(map(str, input().split()))
+        find_parent(int(b[0]))
+        find_parent(int(b[1]))
+        if parent[int(b[1])] == parent[int(b[2])]:
+            print(dist[int(b[2])] - dist[int(b[1])])
         else:
-            if parent[int(a[1])] == parent[int(a[2])]:      # 두 점의 부모(이 시점에서는 루트노드)가 같다면
-                print(dist[int(a[2])] - dist[int(a[1])])    # 루트노드간 거리를 서로 빼주면 두 점간의 거리가 됨
-            else:
-                print("UNKNOWN")
+            print("UNKNOWN")
 

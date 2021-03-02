@@ -23,7 +23,10 @@ for k in range(1, n+1):
     for a in range(1, n+1):
         for b in range(1, n+1):
             graph[a][b] = min(graph[a][b], graph[a][k] + graph[k][b])       # [a->b] vs [a->k->b]
-
+            print(a,"행",b,"열:", graph[a][b])
+        print("열변경")
+    print("행변경")
+print("-----------------------------")
 # 수행된 결과를 출력
 for a in range(1, n+1):
     for b in range(1, n+1):
