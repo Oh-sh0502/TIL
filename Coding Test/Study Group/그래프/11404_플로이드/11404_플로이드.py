@@ -19,6 +19,7 @@ for a in range(n+1):
 for i in range(m):
     a, b, c = map(int, input().split())
     graph[a][b] = min(c, graph[a][b])
+
 # 점화식에 따라 플로이드 워셜 알고리즘을 수행
 for k in range(1, n+1):
     for a in range(1, n+1):

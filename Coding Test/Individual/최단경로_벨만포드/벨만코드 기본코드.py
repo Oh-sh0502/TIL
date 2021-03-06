@@ -9,9 +9,9 @@ def bf(start):
     for i in range(n):
         # 매 반복마다 모든 간선 확인
         for j in range(m):
-            cur = edges[j][0]
-            next_node = edges[j][1]
-            cost = edges[j][2]
+            cur = edges[j][0]       # 시작점
+            next_node = edges[j][1] # 도착지점
+            cost = edges[j][2]      # 비용
             # 현재 간선을 거쳐 다른 노드로 이동하는 거리가 더 짧은 경우
             if dist[cur] != INF and dist[next_node] > dist[cur] + cost:
                 dist[next_node] = dist[cur]+cost
