@@ -1,213 +1,123 @@
-# Oracle 면접 스터디 4주차
+# Oracle면접 스터디 4주차
 
-### 셋째마당_15: 사용자, 권한, 롤 관리
+- Oracle DB 관리자 계정
+- SCOTT 계정 생성
 
-1. **롤(Role)**
+---
 
-### 넷째마당_19: 저장 서브프로그램
+### Oracle DB 관리자 계정
 
-1. **트리거란?**
-2. **프로시저란?**
-3. **트리거 vs 프로시저**
+**1. SYS**
+
+- Oracle DB 관리자, Super User.
+
+- data dictionary를 갖고 있음.
+
+- default password : change_on_install ( 8i 이전 ver. )
+
+- **DB 생성 및 삭제 가능**
+
+**2. SYSTEM**
+
+- 권한은 SYS와 동일하지만 **DB를 생성할 권한이 없음**.
+
+- default password : manager ( 8i 이전 ver. )
+
+**3. SCOTT**
+
+- Oracle에서 제공하는 샘플 사용자 계정
+
+- default password : tiger
+
+**4. HR**
+
+- Oracle에서 제공하는 샘플 사용자 계정
 
 
 
+### SCOTT 계정 생성
 
+ 명령 프롬프트(cmd)를 실행하고 다음을 입력
 
-### 넷째마당_19: 저장 서브프로그램
-
-1. 저장 서브프로그램
-   여러번 사용할 목적으로 이름을 지정하여 오라클에 저장해두는 PL/SQL프로그램
-
-   - PL/SQL ?
-     SQL만으로는 구현이 어렵거나 구현 불가능한 작업을 수행하기 위해 오라클에서 제공하는 프로그래밍 언어
-
-     - PL/SQL 프로그램의 기본단위를 블록(block)이라 하며 기본형식은 다음과 같다.
-
-       ```sql
-       DECLARE
-       	[실행에 필요한 여러 요소 선언]
-       BEGIN
-       	[작업을 위해 실제 실행하는 명령어]
-       EXCEPTION
-       	[PL/SQL수행 도중 발생하는 오류 처리]
-       END;
-       ```
-
-     - 예시
-
-       ```SQL
-       -- PL/SQL 출력하기
-       SET SERVEROUTPUT ON;						-- 실행 결과를 화면에 출력
-       BEGIN
-       	DBMS_OUTPUT.PUT_LINE('Hello, PL/SQL')	-- 문장을 출력하는 DBMS_OUTPUT 패키지, PUT_LINE 함수
-       END;
-       /											-- PL/SQL문 마지막에는 슬래시	
-       
-       
-       -- 변수 선언 및 변수 값 출력
-       DECLARE
-       	V_EMPNO NUMBER(4) := 7788;
-       	V_ENAME VARCHAR2(10);
-       BEGIN
-       	V_ENAME := 'SCOTT';
-       	DBMS_OUTPUT.PUT_LINE('V_EMPNO : ' || V_EMPNO);
-       	DBMS_OUTPUT,PUT_LINE('V_ENAME : ' || V_ENAME);
-       END;
-       /
-       
-       -- 조건문
-       DECLARE
-       	V_NUMBER NUMBER := 13;
-       BEGIN
-       	IF MOD(V_NUMBER, 2) = 1 THEN
-       		DBMS_OUTPU.PUT_LINE('V_NUMBER는 홀수입니다!');
-       	END IF;
-       END;
-       /
-       ```
-
-       
-
-2. 프로시저
-   특정 처리 작업을 수행하는데 사용하는 저장프로그램
-
-   - 자주 사용하는 SQL을 프로짓저로 만든 뒤 필요할 때마다 호출하고 사용. 작업효율 증가
-
-   - 프로시저 생성
-
-     ```SQL
-     CREATE OR REPLACE PROCEDURE EX_PROC
-     (
-        P_DEPARTMENT IN VARCHAR2,
-        P_STUDENT_CNT IN NUMBER
-     )
-     IS
-     P_UNIVERSITY VARCHAR2(100)  := '서울대학교';
-     
-     BEGIN
-     
-     INSERT INTO UNIVERSITY1 (UNIVERSITY, DEPARTMENT, STUDENT_CNT)
-     VALUES (P_UNIVERSITY, P_DEPARTMENT, P_STUDENT_CNT);
-     COMMIT;
-     
-     END EX_PROC;
-     ```
-
-   - 프로시저 실행
-
-     ```SQL
-     EXEC EX_PROC('물리학과',500);
-     EXEC EX_PROC('수학과', 1000)
+```sql
+-- SQLPLUS 접속
+> sqlplus
+Enter user-name: system
+Enter password: 설치할 때 지정한 sys와 system 비밀번호
+-- 연결됨
+Connected to:
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+SQL>
 ```
-     
-     
+
+```sql
+-- SCOTT 계정 생성 파일을 실행
+SQL> @C:\oraclexe\app\oracle\product\11.2.0\server\rdbms\admin\scott.sql
+-- 에러없이 커서가 떨어지면 실행 성공
+SQL> 
+```
+
+```sql
+--접속 사용자 확인
+SQL> show user
+USER is "SCOTT"
+SQL>
+```
+
+```sql
+-- 비밀번호 변경
+SQL> alter user scott identified by tiger;
+User altered.
+SQL>
+```
 
 
 
+### SQL Developer에 사용자 생성
 
+1. sys 사용자 생성
+   sys 사용자에게 db 생성권한이 있으므로 sys 사용자를 생성하고 다른 사용자를 만들어 권한을 부여한다.
+   ![a](https://user-images.githubusercontent.com/71415474/110724380-030fcf00-8259-11eb-9344-5eb1b5fd7ff2.PNG)
 
-**오라클로 배우는 데이터베이스 입문** 교재의 내용 이외에, 면접에서 물어보는 질문들을 모았고, 질문에 대한 주제를 공부해보자.
+2. 사용자 생성 및 권한 부여
+   SQL developer나 SQLPLUS에서 아래 작업 수행
 
+   ```SQL
+   -- 사용자 생성
+   CREATE USER OSHUSER IDENTIFIED BY 111111;
+   -- 사용자에게 CONNECT, RESOURCE 롤 부여
+   GRANT CONNECT, RESOURCE TO OSHUSER;
+   -- 사용자에게 뷰 생성 권한 부여
+   GRANT CREATE VIEW TO OSHUSER; 
+   ```
 
+3. 사용자 생성
+   생성한 사용자의 이름과 비밀번호를 입력하고 롤을 기본값으로 하여 사용자를 생성
+   ![b](https://user-images.githubusercontent.com/71415474/110728117-cf847300-825f-11eb-9d81-26e3cfa488a1.PNG)
 
+   ※ 비밀번호 찾기
+   SQLPLUS에서 SYS나 SYSTEM, 다른 사용자들의 비밀번호를 변경하는 방법이다. 비밀번호를 찾는 방법은 없고, SYS사용자로 들어가 비밀번호를 변경시킨다.
 
+   ```sql
+   -- sqlplus 접속
+   > sqlplus
+   Enter user-name: sys as sysdba
+   Enter password: 그냥 엔터
+   -- 접속 완료
+   Connected to:
+   Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+   
+   -- 비밀번호 변경
+   SQL> ALTER USER SYS IDENTIFIED BY 111111;
+   User altered. 
+   ```
 
-### 셋째마당_15: 사용자, 권한, 롤 관리
-
-1. **롤(Role)**
-
-- 객체에 대해 권한을 생성
-
-- 그룹 및 사용자에 대해 권한을 생성하여 보안과 관리에 용이하게 함
-
-- 롤 관리자는 DBA이다.
-
-### 넷째마당_19: 저장 서브프로그램
-
-1. **트리거란?**
-
-- 생성 후 자동으로 실행
-- 트리거 내부에 commit, rollback 불가능
-
-- 작업대상 : 테이블, 뷰, 데이터베이스 작업
-
-- 트리거란 방아쇠로써, 방아쇠를 당기면 총알이 나가는 것과 같은 의미
-
-- 테이블에 트리거를 생성하여 어떠한 이벤트가 발생할 시 그에 대한 작업을 실행
-
-- 작업테이블에 트리거를 생성하여 이벤트 발생시 이력테이블 혹은 통계테이블에 데이터가 저장 및 수정, 삭제가 되도록 만들어 관리할 수 있다.
-
-- 이력테이블, 합계 잔액 등 통계테이블, 동기화 및 테이블 복제 가능
-
-2. **프로시저란?**
-
-- execute 명령어로 실행
-- 프로시저 내부에 commit, rollback 가능
-
-- 비절차적 언어인 SQL을 보완하기 위해 제공하는 절차적 언어
-
-- 연속적인 실행 혹은 조건에 따른 분기처리를 통해 특정 기능을 수행할 수 있도록 작성 가능
-
-- 변수 및 상수 선언 가능, IF문 및 LOOP문 등 사용 가능
-
-- 보안(데이터 엑세스에 대해 제한), 생산성 향상, 무결성 일관성 향상
-
-3. **트리거 vs 프로시저**
-
-- 프로시저는 사용자, 애플리케이션, 트리거 등에 의해 명시적으로 실행
-
-- 트리거는 이벤트 발생(DML문 수행)시 DBMS에 의해 암시적으로 실행
-
-### 면접질문
-
-RAC 설치 해보신적 있으신가요?
-
-설치해 봤다면 어떤 부분에서 어려웠나요?
-
-RAC 설치 과정을 간략히 큰 과정만 갼략히 얘기해 보실수 있나요?
-
-DB object 에 대해서 아시는대로 말씀해주세요
-
-object와 segment의 차이점에 대해 말씀해주세요
-
-11g 새로운 뉴피처엔 어떤 기능들이 있나요?
-
-파티션 테이블은 왜 사용할까요?
-
-데이터 이관을 하는 방법에 대해서 아는대로 말씀해 주세요
-
-pga가 뭔가요?
-
-memory_target에 대해 아시는대로 설명해주세요
-
-shared pool 에 대해 간략히 설명해 주세요
-
-dbwr 는 어떨때 작동이 되나요?
-
-sga 에 대해 간략히 설명해주세요
-
- vi 사용하실수 있나요?
-
-크론잡에 대해서 아시나요?
-
-테이블의 크기(bytes) 를 볼려면 어떤 뷰를 조회하면 되나요?
-
-옵티마이저란?
-
-드라이빙 테이블이란?
-
-db file sequential read와 db file scattered read 이벤트 차이점은 무엇인가요?
-
- \* 튜닝해 본 경험은 있나요?
-
- \* OWI가 무엇인가요?
-
- \* 백업 & 복구 실습은 많이 했습니까?
-
-부분범위처리는 무엇이며, 왜 필요한가?
-
- 바인딩 쿼리는 무엇인가?
+   <img src="https://user-images.githubusercontent.com/71415474/110728751-ebd4df80-8260-11eb-91da-2255927c2ed7.PNG" alt="c" style="zoom: 67%;" />
 
 
 
+---
+
+### Reference
+
+- Oracle DB 관리자 계정: https://rwen.tistory.com/entry/Oracle-DB-%EA%B4%80%EB%A6%AC%EC%9E%90-%EA%B3%84%EC%A0%95-sys-system%EC%9D%98-%EC%B0%A8%EC%9D%B4

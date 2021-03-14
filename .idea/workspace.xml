@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584ec42e-bb8d-46c1-aa9b-cbaac610cd6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/다이나믹프로그래밍/11053_가장 긴 증가하는 부분 수열.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/다이나믹프로그래밍/2156_포도주 시식.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/다이나믹프로그래밍/9465_스티커.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/chart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/연습장.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ManagerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ManagerController.class" afterDir="false" />
