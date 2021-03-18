@@ -38,14 +38,16 @@
 
 
 # 더 짧은 풀이
+# 입력
 n = int(input())
 seq = list(map(int, input().split()))
-
+# dp 테이블
 inc = [1] * n
-
+# 점화식
 for i in range(n):
     for j in range(i):
-        if seq[j] < seq[i] and inc[i] <= inc[j] + 1:
-            inc[i] = inc[j] + 1
+        if seq[j] < seq[i]:
+            inc[i] = max(inc[i],inc[j] + 1)
+# 출력
 print(max(inc))
 
