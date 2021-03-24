@@ -1,8 +1,15 @@
 n = int(input())
 
-d = [0] * (n+1)
+d = [0] * (n+2)
 d[2] = 3
-if n > 2  and n % 2 == 0:
-    for i in range(2, int(n/2)):
-        d[2*i] = 2*(d[2(i-1)]+1)
+
+for i in range(4, n+2, 2):
+    d[i] = 3 * d[i-2]
+    for j in range(4, i, 2):
+        d[i] += 2 * d[i-j]
+        print(d)
+    d[i] += 2
+
+print(d[n])
+
 
