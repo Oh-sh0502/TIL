@@ -14,11 +14,13 @@
   
 - [HTTP / TCP/IP / WebSocket](https://github.com/jisicTank/Skill/blob/master/WEB/HTTP%20%26%20TCPIP%20%26%20WebSocket.md)
 
-- [HTTP Status Code](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Web/HTTP status code.md)
+- [HTTP Status Code](https://github.com/gyoogle/tech-interview-for-developer/blob/master/Web/HTTP%20status%20code.md)
 
-- Web Server(웹서버)와 WAS의 차이
+- [REST API](https://github.com/jisicTank/Skill/blob/master/WEB/REST%20API.md)
 
-- 캐시가 무엇인가요? redis 같은 걸 캐싱 서버로 사용해보신적 있으신가요?
+- [Web Server(웹서버)와 WAS의 차이](https://github.com/jisicTank/Skill/blob/master/WEB/Web%20Server%EC%99%80%20WAS%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
+
+- [캐시가 무엇인가요? redis 같은 걸 캐싱 서버로 사용해보신적 있으신가요?](https://github.com/jisicTank/Skill/blob/master/WEB/%EC%BA%90%EC%8B%9C.md)
 
 - CORS 이슈
 
@@ -28,8 +30,6 @@
   
   - 주소창에 URL을 치고 엔터를 치면 흐름이 어떻게 되는가
   
-- Restful API
-
 - 모델 1,2,MVC 패턴에 대한 설명
 
 - 프론트와 API 서버간에 어떻게 통신을 하는지, 구현을 어떻게 했는지 설명해주세요
@@ -43,3 +43,17 @@
 * [Spring 프레임워크란](https://github.com/jisicTank/Skill/blob/master/Spring/Spring%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%EB%9E%80.md)
 * [DI(Dependency Injection)](https://github.com/jisicTank/Skill/blob/master/Spring/DI.md)
 * [AOP(Aspect Oriented Programming)](https://github.com/jisicTank/Skill/blob/master/Spring/AOP.md)
+* [IOC_DI 보충](https://github.com/jisicTank/Skill/blob/master/Spring/IoC_DI_%EB%B3%B4%EC%B6%A9.md)
+* [AOP_Proxy 보충](https://github.com/jisicTank/Skill/blob/master/Spring/AOP_%EB%B3%B4%EC%B6%A9.md)
+* [PSA(Portable Service Abstraction)](https://github.com/jisicTank/Skill/blob/master/Spring/PSA.md)
+* [SpringMVC](https://github.com/jisicTank/Skill/blob/master/Spring/SpringMVC.md)
+
+
+
+## 📌 Spring
+
+
+
+* [Java, JVM, OOP](https://github.com/jisicTank/Skill/blob/master/Java/Java_JVM_OOP.md)
+
+  
