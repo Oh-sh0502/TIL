@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584ec42e-bb8d-46c1-aa9b-cbaac610cd6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/다이나믹프로그래밍/11052_카드 구매하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/다이나믹프로그래밍/2011_암호코드.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/다이나믹프로그래밍/2225_합분해.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/다이나믹프로그래밍/9461_파도반수열.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/chart.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding Test/Study Group/다이나믹프로그래밍/1699_제곱수의 합.py" beforeDir="false" afterPath="$PROJECT_DIR$/Coding Test/Study Group/다이나믹프로그래밍/1699_제곱수의 합.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ManagerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ManagerController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/RegionSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/RegionSearch.class" afterDir="false" />

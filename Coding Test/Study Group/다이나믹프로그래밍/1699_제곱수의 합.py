@@ -24,6 +24,6 @@ for i in range(1, n+1):
     for j in sqare:
         if j > i:
             break
-        s. append(dp[i-j])
+        s.append(dp[i-j])
     dp[i] = min(s) + 1
 print(dp[n])
