@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584ec42e-bb8d-46c1-aa9b-cbaac610cd6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Coding Test/Individual/구현/2557_Hello World.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coding Test/Individual/그리디/1541_잃어버린 괄호.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션/1966_프린터 큐.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션/14503_로봇 청소기.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/chart.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody" afterDir="false" />
