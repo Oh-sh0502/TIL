@@ -13,8 +13,10 @@ def dire(direction):
     elif direction == 2 : return 0, -1
     elif direction == 3 : return -1, 0
     elif direction == 4 : return 1, 0
+
 n, m ,x, y, k = map(int, input().split())
 _map = []
+
 for _ in range(n):
     _map.append(list(map(int, input().split())))
 commend = list(map(int,input().split()))

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584ec42e-bb8d-46c1-aa9b-cbaac610cd6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션/12100_2048(Easy).py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/chart.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션/14499_주사위 굴리기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션/14499_주사위 굴리기.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ManagerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ManagerController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/RegionSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/RegionSearch.class" afterDir="false" />
