@@ -1,4 +1,9 @@
-a = {1: 'a', 2: 'b', 'name': 'pey', 3: [1, 2, 3]}
-z = a.pop(1)
-print(z)
+def test():
+    global a
+    a = 3
+    b = 2
+
+    return a + b
+
+print(test())
 print(a)
