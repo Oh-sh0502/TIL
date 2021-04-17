@@ -2,47 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584ec42e-bb8d-46c1-aa9b-cbaac610cd6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션/15685_드래곤 커브.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션/16234_인구이동.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션/16234_인구이동_다른분.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/chart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션/11559_Puyo Puyo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션/17144_미세먼지 안녕!.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션/2636_치즈.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션/15683_감시.py" beforeDir="false" afterPath="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션/15683_감시.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coding Test/Study Group/코딩테스트/연습장.py" beforeDir="false" afterPath="$PROJECT_DIR$/Coding Test/Study Group/코딩테스트/연습장.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ManagerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ManagerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/RegionSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/RegionSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ReviewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ReviewController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/SearcherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/SearcherController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ShopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/ShopController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/WeatherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/controller/WeatherController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/mybatis/reviewmapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/mybatis/reviewmapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/mybatis/shopmapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/mybatis/shopmapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/vo/ReviewVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/build/classes/com/vo/ReviewVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/src/com/biz/BookingBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/src/com/biz/BookingBiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/src/com/controller/ManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/src/com/controller/ManagerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/src/com/controller/SearcherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/src/com/controller/SearcherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/src/com/mybatis/bookingmapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/src/com/mybatis/bookingmapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/src/com/mybatis/shopmapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/src/com/mybatis/shopmapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/target/classes/com/biz/BookingBiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/target/classes/com/biz/BookingBiz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/target/classes/com/controller/SearcherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/target/classes/com/controller/SearcherController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/target/m2e-wtp/web-resources/META-INF/maven/eody/eody/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/target/m2e-wtp/web-resources/META-INF/maven/eody/eody/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/alogin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/alogin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/amain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/amain.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/amyroom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/amyroom.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/aregister.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/aregister.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/center1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/center1.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/loginfail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/loginfail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/shopadd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/shopadd.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/shopdetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/shopdetail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/shopupdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/shopupdate.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/star.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/manager/star.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/region_n_shop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/region_n_shop.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/shoplist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Network Class/spring/Eody/web/view/searcher/shoplist.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,29 +49,8 @@
       <recent name="C:\Users\oh12s\Desktop\TIL\Coding Test\Individual\위상정렬" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.16234_인구이동">
-    <configuration name="연습장" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TIL" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Coding Test/Study Group/코딩테스트" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Coding Test/Study Group/코딩테스트/연습장.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="12100_2048(Easy)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.11559_Puyo Puyo">
+    <configuration name="11559_Puyo Puyo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,28 +62,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션/12100_2048(Easy).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="14891_톱니바퀴_다른분" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TIL" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션/14891_톱니바퀴_다른분.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션/11559_Puyo Puyo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,13 +113,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="17144_미세먼지 안녕!" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TIL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션/17144_미세먼지 안녕!.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2636_치즈" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TIL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션/2636_치즈.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.11559_Puyo Puyo" />
+        <item itemvalue="Python.17144_미세먼지 안녕!" />
+        <item itemvalue="Python.2636_치즈" />
         <item itemvalue="Python.16234_인구이동" />
         <item itemvalue="Python.16234_인구이동_다른분" />
-        <item itemvalue="Python.연습장" />
-        <item itemvalue="Python.12100_2048(Easy)" />
-        <item itemvalue="Python.14891_톱니바퀴_다른분" />
       </list>
     </recent_temporary>
   </component>
