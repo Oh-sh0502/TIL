@@ -13,7 +13,7 @@
 
 1. 프로젝트 기간 동안 **머신러닝1**, **텐서플로우 Python**을 수강하고 수료증을 받는다. (완료)
 
-1. 프로젝트 이후 **Tensorflow 이미지 분류 - CNN(python)** 을 마저 수강한다.
+1. 프로젝트 이후 **Tensorflow 이미지 분류 - CNN(python)** 을 마저 수강한다. (완료)
 
 ---
 
@@ -27,4 +27,4 @@
 
 ### 수료증
 
-![image-20210115021611834](../image/수료증.png)
+![image-20210115021611834](![수료증](https://user-images.githubusercontent.com/71415474/115664755-3461db80-a37d-11eb-8359-be2dfad382ff.png)
