@@ -2,30 +2,23 @@
 
 ## 이번 주 공부할 내용📚
 
-- [Pandas: part4_시각화 도구](./PYthonPandas/part4_시각화 도구)
+- 패스트캠퍼스: 머신러닝과 데이터분석 A-Z 올인원
+    - 단순선형회귀 개념 공부 및 실습
+    - 다중선형회귀 개념 공부 및 실습
+    - 로지스틱회귀 ~ 회귀축소법 개념 공부 및 실습
+    - PCA 개념 공부 및 실습
 
-- [Pandas: part5_데이터 사전 처리](./PythonPandas/part5_데이터 사전 처리)
+- 스터디 준비
+    - CS 스터디: 객체 지향 프로그래밍, 함수형 프로그래밍
+    - 알고리즘 스터디: 프로그래머스 고득점 kit 12문제(해시, 큐, DFS&BFS)
 
-- 1월 21일: AWS 강의!
+---
 
+## [에러노트](/Error Note)
 
+## [Git](/Git)
 
-## Git
-[git 개념 다시 확인하기](/Git)
-
-
-
-
-
-## Python Pandas
-
-0. [에러노트](./PythonPandas/에러노트)
-
-1. [part1](../part1)
-2. [part2_데이터 입출력](../part2_데이터 입출력)
-3. [part3_데이터 살펴보기](../part3 데이터 살펴보기)
-
-
-
-
-
+## 스터디에서 정리한 내용
+- [CS]
+- [Skill](https://github.com/oshsage/TIL/tree/master/%EB%A9%B4%EC%A0%91%EC%8A%A4%ED%84%B0%EB%94%94/%EA%B8%B0%EC%88%A0%EC%8A%A4%ED%83%9D)
+- [Algorism](https://github.com/oshsage/TIL/tree/master/Coding%20Test)
