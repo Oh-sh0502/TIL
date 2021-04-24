@@ -4,6 +4,6 @@
 
 - [Individual: 개인적인 알고리즘 공부 내용](./Individual)
 
-- [스터디: 알고리즘 스터디를 통해 공부한 내용](./Study Group)
+- [스터디: 알고리즘 스터디를 통해 공부한 내용](./Study%20Group)
 
    
