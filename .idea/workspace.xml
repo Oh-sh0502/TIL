@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584ec42e-bb8d-46c1-aa9b-cbaac610cd6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/해시/연습장.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/해시/완주하지 못한 선수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/해시/전화번호 목록.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/스택&amp;큐/기능개발.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/스택&amp;큐/다리를 지나는 트럭.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/스택&amp;큐/주식가격.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/스택&amp;큐/프린터.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding Test/Individual/그리디/1931_회의실 배정/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Coding Test/Individual/그리디/1931_회의실 배정/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,28 @@
       <recent name="C:\Users\oh12s\Desktop\TIL\Coding Test\Individual\위상정렬" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.전화번호 목록">
+  <component name="RunManager" selected="Python.프린터">
+    <configuration name="다리를 지나는 트럭" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TIL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/스택&amp;큐" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/스택&amp;큐/다리를 지나는 트럭.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="전화번호 목록" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="완주하지 못한 선수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="기능개발" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,11 +102,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/해시" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/스택&amp;큐" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/해시/완주하지 못한 선수.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/스택&amp;큐/기능개발.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11559_Puyo Puyo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="프린터" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,11 +123,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/스택&amp;큐" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션/11559_Puyo Puyo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/스택&amp;큐/프린터.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="17144_미세먼지 안녕!" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="주식가격" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,32 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/스택&amp;큐" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Coding Test/Study Group/시뮬레이션/17144_미세먼지 안녕!.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="연습장" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TIL" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/해시" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/해시/연습장.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/스택&amp;큐/주식가격.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.프린터" />
+        <item itemvalue="Python.기능개발" />
+        <item itemvalue="Python.다리를 지나는 트럭" />
+        <item itemvalue="Python.주식가격" />
         <item itemvalue="Python.전화번호 목록" />
-        <item itemvalue="Python.연습장" />
-        <item itemvalue="Python.완주하지 못한 선수" />
-        <item itemvalue="Python.11559_Puyo Puyo" />
-        <item itemvalue="Python.17144_미세먼지 안녕!" />
       </list>
     </recent_temporary>
   </component>
