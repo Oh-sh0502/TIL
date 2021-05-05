@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584ec42e-bb8d-46c1-aa9b-cbaac610cd6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/해시/위장.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/힙/더 맵게.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/완전탐색/모의고사.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/DFS&amp;BFS/여행경로.py" beforeDir="false" afterPath="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/DFS&amp;BFS/여행경로.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/해시/전화번호 목록.py" beforeDir="false" afterPath="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/해시/전화번호 목록.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,7 @@
       <recent name="C:\Users\oh12s\Desktop\TIL\Coding Test\Individual\위상정렬" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.더 맵게">
+  <component name="RunManager" selected="Python.모의고사">
     <configuration name="단어 변환" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,6 +145,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/스택&amp;큐/기능개발.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="모의고사" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TIL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/완전탐색" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Coding Test/Study Group/프로그래머스/완전탐색/모의고사.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,7 +281,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.더 맵게" />
+        <item itemvalue="Python.모의고사" />
         <item itemvalue="Python.단어 변환" />
         <item itemvalue="Python.기능개발" />
         <item itemvalue="Python.다리를 지나는 트럭" />
